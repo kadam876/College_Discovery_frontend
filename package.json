@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "echo 'Skipping tsc build compiled by vercel serverless handler'",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
